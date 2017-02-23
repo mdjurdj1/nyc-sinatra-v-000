@@ -1,0 +1,9 @@
+<h1>Figures Index Page</h1>
+_____________________________________________________________
+<% @figures.each do |figure| %>
+<h3>Figure Name:</h3><ul><%=figure.name%></ul>
+<h3>Figure Titles:</h3><%figure.titles.each do |title|%> <ul><%=title.name%></ul> <%end%>
+<h3>Figure Landmarks:</h3><%figure.landmarks.each do |landmark|%> <ul><%=landmark.name%></ul> <%end%>
+_____________________________________________________________
+<%end%>
+

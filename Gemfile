@@ -11,6 +11,7 @@ gem 'pry'
 gem 'rake'
 gem 'rspec'
 gem 'rack-test'
+gem 'rack-flash3' #added rack-flash
 gem 'sinatra-twitter-bootstrap', :require => 'sinatra/twitter-bootstrap'
 gem 'capybara'
 gem 'require_all'
