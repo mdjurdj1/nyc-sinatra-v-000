@@ -1,0 +1,10 @@
+<h1>Landmark Index Page</h1>
+
+_____________________________________________________________
+<% @landmarks.each do |landmark| %>
+<h3>Landmark Name:</h3><ul><%=landmark.name%></ul>
+<h3>Year Completed:</h3><ul><%=landmark.year_completed%></ul>
+<h3>Landmark Figure:</h3><ul><%=landmark.figure ? landmark.figure.name : "--" %></ul>
+_____________________________________________________________
+<%end%>
+
